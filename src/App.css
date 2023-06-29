@@ -1,0 +1,56 @@
+.logo{
+  width: 40px;
+  margin-right: 7px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 30px 25px;
+  background-color: rgba(33, 34, 42, 1);
+}
+nav >h4{
+font-family: "Inter", serif 400;
+color: white;
+margin-right: auto;
+
+}
+nav >h4, nav>h3{
+  margin: 0;
+}
+nav >h3{
+  font-family: "Inter", serif 600;
+  color:rgba(0, 216, 255, 1);
+}
+.main-content{
+  background-color: rgba(40, 45, 53, 1);
+  position: initial;
+  margin: auto;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url("../public/logo512.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 240px;
+
+}
+ul.my-list{
+  color: white;
+  list-style: none;
+}
+.heading{
+  color: aliceblue;
+  font-family: "Inter", serif 700;
+}
+ul.my-list li::before{
+  content: "\2022";
+  color: rgba(0, 216, 255, 1);
+  font-size: 2.0em;
+  margin-right: 5px;
+}
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
